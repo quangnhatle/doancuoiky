@@ -1,9 +1,9 @@
 # doancuoiky
 đồ án quản lý nhân sự
-/r
+<br>
 SINH VIÊN THỰC HIỆN
-/r
+<br>
 LÊ QUANG NHẬT - 2011063728
-/r
+<br>
 NGUYỄN QUỐC HÙNG - 2011064104
 
