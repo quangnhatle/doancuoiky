@@ -1,0 +1,55 @@
+/* Styling cho container chính của thanh điều hướng */
+.home-ul {
+    /* Loại bỏ dấu chấm mặc định của danh sách */
+    list-style: none; 
+    /* Loại bỏ padding và margin mặc định */
+    padding: 0;
+    margin: 0;
+    
+    /* Sử dụng Flexbox để sắp xếp các mục theo chiều ngang */
+    display: flex; 
+    /* Căn giữa các mục theo chiều dọc */
+    align-items: center; 
+    /* Dùng background màu tối cho thanh điều hướng */
+    background-color: #333; /* Màu xám đậm */
+    /* Làm tròn nhẹ các góc */
+    border-radius: 8px; 
+    /* Đổ bóng nhẹ cho thanh */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Styling cho từng mục trong danh sách (li) */
+.home-ll {
+    /* Đặt padding xung quanh từng mục */
+    padding: 15px 25px; 
+    /* Tăng tính tương tác khi hover */
+    cursor: pointer; 
+    /* Đảm bảo nội dung (h1) nằm trong phạm vi padding/margin */
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+/* Hiệu ứng khi di chuột (hover) vào từng mục */
+.home-ll:hover {
+    background-color: #555; /* Màu xám sáng hơn khi hover */
+}
+
+/* Styling cho tiêu đề (h1) bên trong mỗi mục */
+.home-ll h1 {
+    /* Đổi màu chữ thành màu trắng hoặc màu sáng */
+    color: #fff; 
+    /* Loại bỏ margin mặc định của h1 */
+    margin: 0; 
+    /* Đặt kích thước chữ nhỏ hơn cho menu */
+    font-size: 1.1rem; 
+    /* Đặt font chữ đậm hơn */
+    font-weight: 600;
+    /* Hiệu ứng chuyển màu mượt mà cho chữ */
+    transition: color 0.3s ease; 
+}
+
+/* Tùy chọn: Thêm đường phân cách dọc giữa các mục */
+.home-ll:not(:last-child) {
+    border-right: 1px solid #444; 
+}
